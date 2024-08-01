@@ -13,7 +13,7 @@ elif s=="/":
 elif s=="//":
     ans = n//m
 elif s=="^":
-    ans = n^m
+    ans = n**m
 else:
     print("invalid")
 print(ans)
