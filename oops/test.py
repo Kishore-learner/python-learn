@@ -1,7 +1,7 @@
-from car import Car
+from animal import Animal
 
-car_1=Car("ferrari","F40","red",1987)
-car_2=Car("ford","mustang","black",2021)
-
-car_1.Drive()
-car_2.Drive()
+a1=Animal("dog","blue")
+a2=Animal("cockroach","pink")
+a2.alive = False
+a1.sound()
+a2.sound()
